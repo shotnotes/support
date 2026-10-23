@@ -1,0 +1,40 @@
+name: Suggest a feature
+description: Something new for Shot Notes, or a change to how it works.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please search the existing issues first, in case someone has already asked for it. For a loose idea you would like to talk over first, start a discussion in [Ideas](https://github.com/shotnotes/support/discussions/categories/ideas).
+  - type: dropdown
+    id: parts
+    attributes:
+      label: Which part is it about?
+      options:
+        - Shot Notes for iPhone
+        - Shot Notes for Android
+        - The Shot Notes desktop app (macOS, Windows, Linux)
+        - The Lightroom Classic plugin
+        - The command-line tool
+        - The website
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: How you shoot, and where Shot Notes gets in the way or falls short. This matters more than the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you manage today?
+      description: Optional. Workarounds, or other apps you use for it.

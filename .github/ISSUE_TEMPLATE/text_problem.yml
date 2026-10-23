@@ -1,0 +1,39 @@
+name: Website or text problem
+description: A typo, unclear text or a broken page on the website, in the app, in the install instructions or in a store listing.
+labels: ["text"]
+body:
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where is it?
+      options:
+        - The website
+        - Text in the app
+        - The install instructions
+        - The App Store or Google Play listing
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Page, screen or link
+      description: A link, or the name of the screen in the app.
+      placeholder: e.g. https://www.shotnotes.app/#faq
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording
+      description: Optional.
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshot
+      description: Optional. Drag an image in here. It will be public, so remove anything you would rather not show.

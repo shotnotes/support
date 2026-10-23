@@ -1,0 +1,99 @@
+# "Report a problem" in the app opens this form with the text fields
+# filled in from the URL, by their ids: app-version, os, device and log. Keep
+# those ids as they are, or change the app in the same pull request.
+name: Report a problem
+description: Something in Shot Notes does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please search the existing issues first, in case it has already been reported.
+
+        **Everything here is public.** Shots can hold coordinates and the names of places. Before you paste a log or attach an export file or a screenshot, remove anything you would rather not make public.
+
+        **A security problem?** Please don't open an issue. Use [Report a vulnerability](https://github.com/shotnotes/support/security/advisories/new) instead, which only the developer can see.
+  - type: dropdown
+    id: parts
+    attributes:
+      label: Which part is it about?
+      options:
+        - Shot Notes for iPhone
+        - Shot Notes for Android
+        - The Shot Notes desktop app (macOS, Windows, Linux)
+        - The Lightroom Classic plugin
+        - The command-line tool
+        - The website
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be made to happen again?
+      description: Optional. If you don't know, leave this empty.
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. See …
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Once so far
+  - type: input
+    id: app-version
+    attributes:
+      label: Version
+      description: In the app, on the About screen. For the Lightroom Classic plugin, in the Plug-in Manager. For the command-line tool, run it with `--version`.
+      placeholder: e.g. 1.2.0
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and version
+      placeholder: e.g. iOS 26.1, Android 16, macOS 26.1, Windows 11
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: The phone, tablet or computer.
+      placeholder: e.g. iPhone 16, Pixel 9, MacBook Air M3
+  - type: input
+    id: lightroom-version
+    attributes:
+      label: Lightroom Classic version
+      description: Only if it is about the plugin. In Lightroom Classic, under Help, System Info.
+      placeholder: e.g. 15.1
+  - type: textarea
+    id: log
+    attributes:
+      label: Error log
+      description: Optional. "Report a problem" in the app can add this for you.
+      render: text
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots
+      description: Optional. Drag images in here. Remember that they will be public.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I have removed anything I don't want to make public, such as places, coordinates or names.
+          required: true

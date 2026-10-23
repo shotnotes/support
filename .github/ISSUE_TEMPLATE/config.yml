@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Frequently asked questions
+    url: https://www.shotnotes.app/#faq
+    about: Answers to common questions. Please check them before opening an issue.
+  - name: Ask a question
+    url: https://github.com/shotnotes/support/discussions/categories/q-a
+    about: How to do something with Shot Notes, or anything that isn't a problem or a suggestion.
+  - name: Report a security problem
+    url: https://github.com/shotnotes/support/security/advisories/new
+    about: Privately, so that it isn't public before it is fixed.
