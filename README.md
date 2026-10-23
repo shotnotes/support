@@ -8,6 +8,8 @@ files.
 
 Website: https://www.shotnotes.app
 
+Privacy policy: https://www.shotnotes.app/privacy/
+
 This repository is where you can report a problem, suggest a feature, ask a
 question and, once there are releases, download Shot Notes. It holds no source
 code.
