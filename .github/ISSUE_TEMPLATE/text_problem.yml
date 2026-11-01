@@ -18,7 +18,7 @@ body:
     attributes:
       label: Page, screen or link
       description: A link, or the name of the screen in the app.
-      placeholder: e.g. https://shotnotes.app/#faq
+      placeholder: e.g. https://www.shotnotes.app/#faq
     validations:
       required: true
   - type: textarea

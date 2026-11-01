@@ -4,7 +4,7 @@
 
 Your shots, kit and notes are kept on your phone, in the app's own database.
 There is no account and nothing is sent to a server of Shot Notes. The
-[privacy policy](https://shotnotes.app/privacy/) has the whole picture.
+[privacy policy](https://www.shotnotes.app/privacy/) has the whole picture.
 
 Two things leave the phone, and only when you ask:
 

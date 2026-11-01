@@ -43,4 +43,4 @@ through your first shots.
 ## Your notes are yours
 
 The notes stay on your device until you export them. Read the
-[privacy policy](https://shotnotes.app/privacy/) for the details.
+[privacy policy](https://www.shotnotes.app/privacy/) for the details.

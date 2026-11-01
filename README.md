@@ -6,9 +6,9 @@ electronic contacts can't tell the camera. Your notes stay on your own
 devices. Later, they can be written into the metadata of the matching image
 files.
 
-Website: https://shotnotes.app
+Website: https://www.shotnotes.app
 
-Privacy policy: https://shotnotes.app/privacy/
+Privacy policy: https://www.shotnotes.app/privacy/
 
 This repository is where you can report a problem, suggest a feature, ask a
 question and, once there are releases, download Shot Notes. It holds no source
@@ -22,7 +22,7 @@ will say when there is something to try.
 
 ## Documentation
 
-How to use Shot Notes, and where to get help: https://shotnotes.app/support/
+How to use Shot Notes, and where to get help: https://www.shotnotes.app/support/
 
 The text of the documentation, this README and `SECURITY.md` is licensed under
 [CC BY 4.0](LICENSE-docs.txt). The Shot Notes name, logo and screenshots, and
@@ -31,7 +31,7 @@ the programs, are not covered by it.
 ## Getting Shot Notes
 
 When there are releases, the website's
-[Get started](https://shotnotes.app/#get-started) section will say how to
+[Get started](https://www.shotnotes.app/#get-started) section will say how to
 install each part, and the downloads will be under
 [Releases](https://github.com/shotnotes/support/releases) here.
 
@@ -44,7 +44,7 @@ install each part, and the downloads will be under
   or talk it over first in [Ideas](https://github.com/shotnotes/support/discussions/categories/ideas).
 - **A typo or unclear text**, on the website, in the app, in the install
   instructions or in a store listing: [report it](https://github.com/shotnotes/support/issues/new?template=text_problem.yml).
-- **A question:** see the [FAQ](https://shotnotes.app/#faq) first, then ask
+- **A question:** see the [FAQ](https://www.shotnotes.app/#faq) first, then ask
   in [Q&A](https://github.com/shotnotes/support/discussions/categories/q-a).
 - **A security problem:** don't open an issue; see [SECURITY.md](SECURITY.md).
 

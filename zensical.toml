@@ -5,7 +5,7 @@ site_description = "How to use Shot Notes, and where to report a problem or ask 
 site_author = "The Shot Notes authors"
 
 copyright = """
-&copy; 2026 Anirban Basu. Text under <a href="https://shotnotes.app/support/licence/">CC BY 4.0</a>. The Shot Notes name, logo and screenshots are not covered by it. <a href="https://shotnotes.app/support/licence/#the-examples-in-the-screenshots">The screenshots show made-up examples</a>, not real people, places or businesses.
+&copy; 2026 Anirban Basu. Text under <a href="https://www.shotnotes.app/support/licence/">CC BY 4.0</a>. The Shot Notes name, logo and screenshots are not covered by it. <a href="https://www.shotnotes.app/support/licence/#the-examples-in-the-screenshots">The screenshots show made-up examples</a>, not real people, places or businesses.
 """
 
 repo_url = "https://github.com/shotnotes/support"
