@@ -1,0 +1,33 @@
+/* The logo is drawn in dark lines for a light page; in the dark scheme use the one drawn in light lines. */
+[data-md-color-scheme="slate"] .md-logo img {
+  content: url("../assets/logo-dark.svg");
+}
+
+/* A picture comes in a light and a dark version; show the one for the scheme. */
+[data-md-color-scheme="default"] img[src$="#only-dark"],
+[data-md-color-scheme="slate"] img[src$="#only-light"] {
+  display: none;
+}
+
+/* The screens of the app and the writer. */
+.md-typeset img[src*="screenshots/"] {
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  box-shadow: var(--md-shadow-z1);
+}
+
+.md-typeset img.phone {
+  width: 15rem;
+  max-width: 100%;
+  margin: 0 0.8rem 0.8rem 0;
+}
+
+/* The work-in-progress banner (overrides/main.html): amber, so it is not mistaken for the page. */
+.md-banner {
+  background-color: #8a4b00;
+  color: #fff;
+}
+.md-banner a {
+  color: #fff;
+  text-decoration: underline;
+}

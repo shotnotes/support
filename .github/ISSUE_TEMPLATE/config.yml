@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Frequently asked questions
-    url: https://www.shotnotes.app/#faq
+    url: https://shotnotes.app/#faq
     about: Answers to common questions. Please check them before opening an issue.
   - name: Ask a question
     url: https://github.com/shotnotes/support/discussions/categories/q-a

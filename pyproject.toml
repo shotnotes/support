@@ -1,0 +1,13 @@
+[project]
+name = "shotnotes-support"
+version = "0.1.0"
+description = "The Shot Notes documentation, built with Zensical. Never released: it is only built and published as a site."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "zensical>=0.0.74",
+]
+
+[tool.uv]
+# Nothing to build or install: the project only pins the tools that build the site.
+package = false

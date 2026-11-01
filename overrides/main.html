@@ -1,0 +1,9 @@
+{#- The banner at the top of every page, until the documentation is declared usable.
+    To take it down: delete this folder and the custom_dir line in zensical.toml. -#}
+{% extends "base.html" %}
+
+{% block announce %}
+  <strong>Work in progress.</strong> This documentation is not ready to use yet:
+  pages are incomplete, links may not work, and the downloads and apps it
+  describes are not available yet.
+{% endblock %}

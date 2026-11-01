@@ -1,0 +1,141 @@
+[project]
+site_url = "https://www.shotnotes.app/support/"
+site_name = "Shot Notes help"
+site_description = "How to use Shot Notes, and where to report a problem or ask a question."
+site_author = "The Shot Notes authors"
+
+copyright = """
+&copy; 2026 Anirban Basu. Text under <a href="https://shotnotes.app/support/licence/">CC BY 4.0</a>. The Shot Notes name, logo and screenshots are not covered by it. <a href="https://shotnotes.app/support/licence/#the-examples-in-the-screenshots">The screenshots show made-up examples</a>, not real people, places or businesses.
+"""
+
+repo_url = "https://github.com/shotnotes/support"
+repo_name = "shotnotes/support"
+# No edit links: this repository takes no pull requests.
+
+nav = [
+  { "Shot Notes" = "index.md" },
+  { "Get started" = [
+    "start/how-it-fits.md",
+    "start/app.md",
+    "start/writer.md",
+    "start/first-shots.md",
+  ] },
+  { "The app" = [
+    "app/shots.md",
+    "app/kit.md",
+    "app/search-and-export.md",
+    "app/settings.md",
+  ] },
+  { "The metadata writer" = [
+    "writer/overview.md",
+    "writer/desktop-app.md",
+    "writer/command-line.md",
+    "writer/lightroom.md",
+    "writer/content-credentials.md",
+  ] },
+  { "Getting help" = "help.md" },
+  { "Licence" = "licence.md" },
+]
+
+extra_css = ["stylesheets/extra.css"]
+# extra_javascript = ["javascripts/extra.js"]
+
+[project.theme]
+# variant = "classic"
+# The banner that says this documentation is a work in progress; see overrides/main.html.
+custom_dir = "overrides"
+favicon = "assets/favicon.svg"
+language = "en"
+features = [
+  # "announce.dismiss",  # the banner stays, until the documentation is ready
+  # "content.action.edit",
+  # "content.action.view",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tabs.link",
+  "content.tooltips",
+  # "header.autohide",
+  # "navigation.expand",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  # "navigation.instant.progress",
+  "navigation.path",
+  # "navigation.prune",
+  "navigation.sections",
+  # "navigation.tabs",
+  # "navigation.tabs.sticky",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  # "toc.follow",
+  # "toc.integrate",
+]
+
+logo = "assets/logo.svg"
+
+# [project.theme.icon]
+# logo = "lucide/smile"
+
+# [project.theme.font]
+# text = "Inter"
+# code = "Jetbrains Mono"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+# [[project.extra.social]]
+# icon = "fontawesome/brands/github"
+# link = "https://github.com/user/repo"
+
+# [[project.extra.social]]
+# icon = "fontawesome/brands/mastodon"
+# link = "https://fosstodon.org/@user"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.arithmatex.generic = true
+pymdownx.betterem = {}
+pymdownx.caret = {}
+pymdownx.details = {}
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.magiclink = {}
+pymdownx.mark = {}
+pymdownx.smartsymbols = {}
+# pymdownx.snippets.base_path = "includes"
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.combine_header_slug = true
+pymdownx.tasklist.custom_checkbox = true
+pymdownx.tilde = {}

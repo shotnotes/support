@@ -1,0 +1,5 @@
+# Made by `uv sync`
+.venv/
+
+# Made by `zensical build`
+/site/
