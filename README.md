@@ -28,6 +28,11 @@ The text of the documentation, this README and `SECURITY.md` is licensed under
 [CC BY 4.0](LICENSE-docs.txt). The Shot Notes name, logo and screenshots, and
 the programs, are not covered by it.
 
+The computer programs (the desktop app, the command-line tool, the Content
+Credentials helper and the Lightroom plugin) are free to use, under the
+[terms of use](TERMS.md). Every download holds the terms, and the notices of the
+code from others that it contains.
+
 ## Getting Shot Notes
 
 When there are releases, the website's

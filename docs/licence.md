@@ -11,7 +11,8 @@ purpose, if you give credit to Anirban Basu and say if you changed it.
   the logo files in `docs/assets/`;
 - screenshots and other pictures of the app and the programs, including every
   file in `docs/screenshots/`;
-- the programs themselves, which are published under their own terms.
+- the programs themselves, which are published under their own
+  [terms of use](https://github.com/shotnotes/support/blob/main/TERMS.md).
 
 The licence gives no right to use the name or the logo, nor to suggest that
 Shot Notes endorses you or what you make.

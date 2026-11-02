@@ -100,5 +100,13 @@ The gear, or Cmd+, on macOS and Ctrl+, elsewhere, holds:
 - whether to keep the originals;
 - whether to also write the kit as keywords.
 
-They are kept on this computer only. Your choices on the Write step are
+**Licences...** lists the licences of the software in the app. The terms of use,
+and the licences of the program's other parts, are in the files `TERMS.md`,
+`NOTICES.md` and `LICENCES.txt`. On Windows they are in the app's folder. On
+macOS they are inside the app: choose Show Package Contents, then Contents and
+Resources. On Linux they are inside the AppImage, which unpacks itself when run
+with `--appimage-extract`. The terms are also at
+https://github.com/shotnotes/support/blob/main/TERMS.md.
+
+The settings are kept on this computer only. Your choices on the Write step are
 remembered.

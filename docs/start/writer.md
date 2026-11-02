@@ -1,6 +1,6 @@
 # Install the metadata writer
 
-The metadata writer runs on **macOS** (Apple silicon), **Windows** (64-bit) and
+The metadata writer runs on **macOS** (Apple Silicon), **Windows** (64-bit) and
 **Linux** (x86-64 and arm64). It comes as a desktop app, **Shot Notes Writer**,
 and a command-line tool, `shotnotes`. Install either, or both. There is also a
 [Lightroom Classic plugin](#lightroom-classic-plugin).
@@ -13,12 +13,17 @@ and a command-line tool, `shotnotes`. Install either, or both. There is also a
     [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
     will say what is new.
 
+The programs are free to use, under the
+[terms of use](https://github.com/shotnotes/support/blob/main/TERMS.md). By
+installing them you agree to the terms.
+
 ## What it needs
 
-- **macOS:** an Apple silicon Mac. The desktop app needs macOS 12 or later; the
+- **macOS:** an Apple Silicon Mac. The desktop app needs macOS 12 or later; the
   command-line tool, and so the Lightroom plugin, need macOS 14 or later.
 - **Windows:** 64-bit Windows 10 or later.
-- **Linux:** a 64-bit system, x86-64 or arm64. No minimum version is set.
+- **Linux:** a 64-bit system, x86-64 or arm64. The desktop app needs the
+  desktop's GTK 3. No minimum version is set.
 
 ## 1. Install exiftool first
 
