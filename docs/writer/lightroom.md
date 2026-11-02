@@ -20,7 +20,8 @@ says how to add the plugin to Lightroom.
 
 Select the photos in the Library, then choose **Library**, **Plug-in Extras**,
 **Match Shot Notes to the Selected Photos...**. The best time is straight after
-importing, before culling: delete a note together with its photo.
+importing, before you delete any photos. If you already deleted some, delete their
+shots in the app before you export, or leave those notes out in the review.
 
 1. **Choose the export file.** A window says so first, then the file chooser
    opens.

@@ -21,6 +21,10 @@ of their dates, the images, the folders and the camera bodies.
 ![The Choose step: the export file and the images, both counted, with the camera clock to work out](../screenshots/writer-choose-light.svg#only-light){ loading=lazy }
 ![The Choose step: the export file and the images, both counted, with the camera clock to work out](../screenshots/writer-choose-dark.svg#only-dark){ loading=lazy }
 
+Match straight after you import, before you delete any photos. If you already
+deleted some, delete their shots in the app before you export, or leave those
+notes out here.
+
 A check says whether the shots and the images are as many. **Match** stays off
 until they are. When they are not, it tells you where the times disagree: a note
 with no image near it (with the two nearest images), or an image with no note.

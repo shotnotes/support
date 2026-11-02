@@ -19,6 +19,10 @@ shotnotes show shot-notes-2026-10-16.snexport
 shotnotes write shot-notes-2026-10-16.snexport ~/Pictures/2026-10-16 --recursive
 ```
 
+Match straight after you import, before you delete any photos. If you already
+deleted some, delete their shots in the app before you export, or leave those
+notes out when it asks.
+
 `show` lists the shots in the file, after checking that the file is whole.
 `write` matches the notes to the images, asks about anything it is unsure of,
 shows what will change, and writes only after you say yes.
