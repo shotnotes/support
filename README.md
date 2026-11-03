@@ -11,14 +11,14 @@ Website: https://www.shotnotes.app
 Privacy policy: https://www.shotnotes.app/privacy/
 
 This repository is where you can report a problem, suggest a feature, ask a
-question and, once there are releases, download Shot Notes. It holds no source
-code.
+question and download the computer programs. It holds no source code.
 
 ## Status
 
-Shot Notes is in development. Nothing has been released yet, and it isn't in
-the app stores. [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
-will say when there is something to try.
+Shot Notes is in beta. The computer programs have a first pre-release,
+[0.1.0 (Beta 1)](https://github.com/shotnotes/support/releases/tag/v0.1.0). The
+phone app isn't in the app stores yet. [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
+will say when there is something new to try.
 
 ## Documentation
 
@@ -35,10 +35,11 @@ code from others that it contains.
 
 ## Getting Shot Notes
 
-When there are releases, the website's
-[Get started](https://www.shotnotes.app/#get-started) section will say how to
-install each part, and the downloads will be under
-[Releases](https://github.com/shotnotes/support/releases) here.
+The downloads of the computer programs are under
+[Releases](https://github.com/shotnotes/support/releases) here, and each
+release says which file is for which system. The website's
+[Get started](https://www.shotnotes.app/#get-started) section says how to
+install each part.
 
 ## Getting help
 
