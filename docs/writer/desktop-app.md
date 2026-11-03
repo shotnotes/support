@@ -104,8 +104,9 @@ The gear, or Cmd+, on macOS and Ctrl+, elsewhere, holds:
 and the licences of the program's other parts, are in the files `TERMS.md`,
 `NOTICES.md` and `LICENCES.txt`. On Windows they are in the app's folder. On
 macOS they are inside the app: choose Show Package Contents, then Contents and
-Resources. On Linux they are inside the AppImage, which unpacks itself when run
-with `--appimage-extract`. The terms are also at
+Resources. On Linux they are in `/usr/share/doc/shotnotes-writer` when you
+installed the `.deb` or `.rpm`, and inside the AppImage, which unpacks itself
+when run with `--appimage-extract`. The terms are also at
 https://github.com/shotnotes/support/blob/main/TERMS.md.
 
 The settings are kept on this computer only. Your choices on the Write step are

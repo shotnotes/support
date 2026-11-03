@@ -22,8 +22,9 @@ installing them you agree to the terms.
 - **macOS:** an Apple Silicon Mac. The desktop app needs macOS 12 or later; the
   command-line tool, and so the Lightroom plugin, need macOS 14 or later.
 - **Windows:** 64-bit Windows 10 or later.
-- **Linux:** a 64-bit system, x86-64 or arm64. The desktop app needs the
-  desktop's GTK 3. No minimum version is set.
+- **Linux:** a 64-bit system, x86-64 or arm64, with glibc 2.39 or newer (Ubuntu
+  24.04, Debian 13 or Fedora 40, or later). The desktop app needs the desktop's
+  GTK 3.
 
 ## 1. Install exiftool first
 
@@ -44,7 +45,8 @@ which is not part of it. Install it first:
 
 === "Linux"
 
-    On Debian and Ubuntu, the package is `libimage-exiftool-perl`.
+    The `.deb` and `.rpm` packages below install it themselves. On Debian and
+    Ubuntu, the package is `libimage-exiftool-perl`.
 
     ```bash
     sudo apt install libimage-exiftool-perl
@@ -88,9 +90,28 @@ the path, and the command-line tool has `--exiftool <path>`.
 
 === "Linux"
 
-    The desktop app is an AppImage. From the
-    [Releases page](https://github.com/shotnotes/support/releases), download the
-    file for your processor (`x64` or `arm64`), make it executable and run it:
+    On Debian, Ubuntu and their derivatives, and on Fedora and its derivatives,
+    install a package from the
+    [Releases page](https://github.com/shotnotes/support/releases). It installs
+    exiftool with it. Download the files for your processor (`amd64` or `arm64`
+    for a `.deb`, `x86_64` or `aarch64` for an `.rpm`). `shotnotes` is the
+    command-line tool and the helper, and `shotnotes-writer` is the desktop app:
+
+    ```bash
+    sudo apt install ./shotnotes_<version>_amd64.deb ./shotnotes-writer_<version>_amd64.deb
+    ```
+
+    ```bash
+    sudo dnf install ./shotnotes-<version>-1.x86_64.rpm ./shotnotes-writer-<version>-1.x86_64.rpm
+    ```
+
+    Each command installs both; give it one file to install just that one. A
+    system with an older glibc than the one required is refused, with a message
+    about `libc6` or `glibc`. The packages are not signed yet, and do not update
+    by themselves: install the newer files over them.
+
+    For another Linux, the desktop app is also an AppImage. Download the file
+    for your processor (`x64` or `arm64`), make it executable and run it:
 
     ```bash
     chmod +x shotnotes-writer-*.AppImage
