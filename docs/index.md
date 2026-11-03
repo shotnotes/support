@@ -12,7 +12,8 @@ files.
     and the Lightroom plugin, are on the
     [Releases page](https://github.com/shotnotes/support/releases) as
     pre-releases. The mobile apps are only available to testers for now, and
-    are not in the app stores. Testing is about to start.
+    are not in the app stores. Testing has started on iPhone, and Android is
+    coming soon.
     [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
     will say when and how to join.
 
@@ -42,5 +43,7 @@ through your first shots.
 
 ## Your notes are yours
 
-The notes stay on your device until you export them. Read the
+The notes stay on your device until you export them. The programs for your
+computer, the metadata writer and the Lightroom plugin, run on your computer and
+send nothing. Read the
 [privacy policy](https://www.shotnotes.app/privacy/) for the details.

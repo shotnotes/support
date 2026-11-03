@@ -70,9 +70,19 @@ the path, and the command-line tool has `--exiftool <path>`.
       `shotnotes-c2pa`, which must stay together. Put them in a folder on your
       path, or run `./shotnotes` from where you unpacked them.
 
-    A Homebrew tap, `shotnotes/tap`, is planned, with the cask
-    `shotnotes-writer` and the formula `shotnotes`. Until the announcements say
-    it is there, use the downloads.
+    Or use [Homebrew](https://brew.sh/), which installs exiftool with them. The
+    desktop app needs macOS 12 or later, and the command-line tool macOS 14 or
+    later:
+
+    ```bash
+    brew tap shotnotes/tap
+    brew trust shotnotes/tap
+    brew install --cask shotnotes-writer
+    ```
+
+    ```bash
+    brew install shotnotes
+    ```
 
 === "Windows"
 
@@ -122,9 +132,15 @@ the path, and the command-line tool has `--exiftool <path>`.
     `shotnotes-<version>-linux-<processor>.tar.gz`, from the Releases page. It
     holds `shotnotes` and the helper beside it, `shotnotes-c2pa`, which must stay
     together. Put them in a folder on your path, or run `./shotnotes` from where
-    you unpacked them. A [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux)
-    formula is planned with the Homebrew tap, which will install exiftool with
-    it.
+    you unpacked them. It is also on
+    [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux), which installs exiftool
+    with it:
+
+    ```bash
+    brew tap shotnotes/tap
+    brew trust shotnotes/tap
+    brew install shotnotes
+    ```
 
 ## Check a download
 
@@ -170,6 +186,5 @@ on macOS and Windows. The cloud-based Lightroom has no plugins.
 
 ## Updating
 
-Download the new files and replace the old ones. (With Homebrew, once the tap
-is there, `brew upgrade`.) The writer keeps nothing of yours, apart from its
+Download the new files and replace the old ones. (With Homebrew, `brew upgrade`.) The writer keeps nothing of yours, apart from its
 settings and the certificate it made for you, if any.

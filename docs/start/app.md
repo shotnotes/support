@@ -6,7 +6,8 @@ account.
 !!! note "Beta, for testers only"
 
     Shot Notes is in beta. The app is available only to testers, who are
-    invited, and is not in the app stores yet. Testing is about to start.
+    invited, and is not in the app stores yet. Testing has started on iPhone,
+    and Android is coming soon.
     [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
     will say when and how to join.
 
@@ -24,8 +25,9 @@ As a tester:
 - **iPhone:** open the invitation on the phone, install Apple's **TestFlight**
   app if you do not have it, and accept the invitation there. Then tap
   **Install** next to Shot Notes.
-- **Android:** open the invitation on the phone, accept it, and install Shot
-  Notes from Google Play, where the link takes you.
+- **Android:** the test is not open yet. When it is, you will get a link: open
+  it on the phone, join the test, and install Shot Notes from Google Play,
+  where the link takes you.
 
 When the app is in the stores, search for **Shot Notes** in the App Store or in
 Google Play, and install it as any other app.
