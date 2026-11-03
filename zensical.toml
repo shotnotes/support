@@ -23,6 +23,7 @@ nav = [
   { "The app" = [
     "app/shots.md",
     "app/kit.md",
+    "app/sharing-kit.md",
     "app/search-and-export.md",
     "app/settings.md",
   ] },

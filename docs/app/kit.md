@@ -49,3 +49,10 @@ uses it.
 Deleting asks nothing, and a bar with **Undo** is there for a few seconds.
 Kit that shots use cannot be deleted: change the kit of those shots first. Kit
 you delete can be brought back from **Settings**, **Recently deleted**.
+
+## Sharing kit
+
+Tap **Share this item** in the form of a lens, filter, light or accessory to
+share it with another person by a QR code or a link, and use **Add from a
+link** at the top of the Kit tab to add what someone shared with you. See
+[Sharing kit](sharing-kit.md).

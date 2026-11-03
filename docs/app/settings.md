@@ -6,7 +6,7 @@ Your shots, kit and notes are kept on your phone, in the app's own database.
 There is no account and nothing is sent to a server of Shot Notes. The
 [privacy policy](https://www.shotnotes.app/privacy/) has the whole picture.
 
-Two things leave the phone, and only when you ask:
+Three things can leave the phone, and only when you ask:
 
 - **A place name.** When you tap the location button, the app can send the
   coordinates to Apple (on iOS) or Google (on Android) to find the name of the
@@ -14,12 +14,17 @@ Two things leave the phone, and only when you ask:
   button then records coordinates only and sends nothing.
 - **A map.** The map button of a shot hands its location to your phone's map
   app.
+- **A kit item.** Sharing a kit item (see [Sharing kit](sharing-kit.md)) hands
+  a link to your phone's share sheet, and it goes only where you send it.
 
 ## What is in Settings
 
 - **Carry over:** what a new shot copies from the last one (see
   [Logging a shot](shots.md)).
 - **Look up place names:** on by default.
+- **Include serial number when sharing:** off by default. It sets whether the
+  page that shares a kit item starts with the serial number included (see
+  [Sharing kit](sharing-kit.md)).
 - **Data:** how many kit items and manufacturers you have.
 - **Export shots:** a day, a date range or all shots, for the metadata
   writer (see [Searching and exporting](search-and-export.md)), and how many
