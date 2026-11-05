@@ -25,8 +25,9 @@ will say when there is something new to try.
 How to use Shot Notes, and where to get help: https://www.shotnotes.app/support/
 
 The text of the documentation, this README and `SECURITY.md` is licensed under
-[CC BY 4.0](LICENSE-docs.txt). The Shot Notes name, logo and screenshots, and
-the programs, are not covered by it.
+[CC BY 4.0](LICENSE-docs.txt). The Shot Notes name, logo and screenshots, the
+programs and the apps, and the [terms of use](TERMS.md) below, are not covered
+by it.
 
 The computer programs (the desktop app, the command-line tool, the Content
 Credentials helper and the Lightroom plugin) are free to use, under the
@@ -37,9 +38,9 @@ code from others that it contains.
 
 The downloads of the computer programs are under
 [Releases](https://github.com/shotnotes/support/releases) here, and each
-release says which file is for which system. The website's
-[Get started](https://www.shotnotes.app/#get-started) section says how to
-install each part.
+release says which file is for which system. How to install each part, step by
+step: [the computer programs](https://www.shotnotes.app/support/start/writer/)
+and [the phone app](https://www.shotnotes.app/support/start/app/).
 
 ## Getting help
 

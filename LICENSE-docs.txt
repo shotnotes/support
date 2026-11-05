@@ -8,7 +8,9 @@ Not covered by that licence, with all rights in them reserved:
   the logo files in docs/assets/;
 - screenshots and other pictures of the app and the programs, including every
   file in docs/screenshots/;
-- the programs themselves, which are published under their own terms.
+- the programs themselves: the computer programs, which are published under
+  their own terms, and the phone app, which this licence does not cover either;
+- those terms (TERMS.md), which are the author's, with all rights reserved.
 
 Copyright (c) 2026 Anirban Basu.
 
