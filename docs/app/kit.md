@@ -24,8 +24,8 @@ A lens has:
 - one or more **focal lengths**, in millimetres. Give one for a prime lens, or
   each fixed focal length of a lens such as a Tri-Elmar;
 - an **aperture range**, the widest and the narrowest f-number. It is
-  optional. It narrows the choices when you log a shot, and the app warns when
-  a shot has an aperture the lens cannot do;
+  optional, but give both ends or neither. When it is set, a shot with this lens
+  can only have an f-number from the widest to the narrowest;
 - a **serial number**, engraved or printed on the lens, and a **description**.
 
 The aperture range and focal lengths are checked against the shots you have

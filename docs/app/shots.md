@@ -20,8 +20,8 @@ first (see [Your kit](kit.md)).
 | Date, time and time zone | They start as now. **Reset to now** puts them back. |
 | Lens | Required. You choose it from your kit. |
 | Focal length | Set by the lens when it has one focal length. For a lens with several fixed ones, such as a Tri-Elmar, choose one. |
-| Aperture | An f-number, for example 3.2. The lens's widest and narrowest apertures narrow the choices, and you can type any f-number. The app tells you when one is outside what the lens does. |
-| Shutter speed | Optional, for example 1/1000, 0.5 or 3". Choose a usual value or type your own. |
+| Aperture | An f-number, for example 3.2. When the lens has a widest and a narrowest aperture, the choices are the f-numbers from the widest to the narrowest, and a typed f-number outside them is refused. |
+| Shutter speed | Optional, for example 1/1000, 0.5 or 3. Choose a usual value or type your own. |
 | ISO | Optional. |
 | Filters, lighting, accessories | Optional. You choose them from your kit. |
 | Place | Text, as you would say it: "Where was this?". |
