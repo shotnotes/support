@@ -28,7 +28,7 @@ first (see [Your kit](kit.md)).
 | Coordinates | Optional. See below. |
 | Notes | Subject, light, intent, anything you want to keep. |
 
-Tap **Save shot** to keep it, or **Save changes** when you edit one.
+Tap **Save**, at the top, to keep it. It is the same when you edit a shot.
 
 ## Log the shot soon after you take it
 

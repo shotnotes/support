@@ -9,7 +9,7 @@ lens.
 
 1. Add the lens to **Kit**, if you have not.
 2. After each shot, tap **+**, check the lens, the aperture and the focal
-   length, and tap **Save shot**. Do it soon after taking the shot. The notes
+   length, and tap **Save**. Do it soon after taking the shot. The notes
    are matched to the photos by time.
 
 ![A new shot, with the aperture chosen](../screenshots/app-new-shot-light.svg#only-light){ .phone loading=lazy }
