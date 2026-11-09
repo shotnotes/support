@@ -108,17 +108,23 @@ the path, and the command-line tool has `--exiftool <path>`.
     command-line tool and the helper, and `shotnotes-writer` is the desktop app:
 
     ```bash
-    sudo apt install ./shotnotes_<version>_amd64.deb ./shotnotes-writer_<version>_amd64.deb
+    sudo apt install ./shotnotes_<version>-<build>_amd64.deb ./shotnotes-writer_<version>-<build>_amd64.deb
     ```
 
     ```bash
-    sudo dnf install ./shotnotes-<version>-1.x86_64.rpm ./shotnotes-writer-<version>-1.x86_64.rpm
+    sudo dnf install ./shotnotes-<version>-<build>.x86_64.rpm ./shotnotes-writer-<version>-<build>.x86_64.rpm
     ```
 
     Each command installs both; give it one file to install just that one. A
     system with an older glibc than the one required is refused, with a message
     about `libc6` or `glibc`. The packages are not signed yet, and do not update
     by themselves: install the newer files over them.
+
+    The `<build>` in a file name is the build number of the package, which goes
+    up each time the package is made again, so a newer file replaces an older
+    one of the same version. Packages published before 9 November 2026 do not
+    have one: their `.deb` files are named `<version>_amd64` and their `.rpm`
+    files `<version>-1`.
 
     For another Linux, the desktop app is also an AppImage. Download the file
     for your processor (`x64` or `arm64`), make it executable and run it:
@@ -127,6 +133,14 @@ the path, and the command-line tool has `--exiftool <path>`.
     chmod +x shotnotes-writer-*.AppImage
     ./shotnotes-writer-*.AppImage
     ```
+
+    An AppImage that you run like this has no entry in the desktop's menu, and
+    on some desktops (those on Wayland, which is the default on Ubuntu and
+    Fedora) its window then shows a generic icon instead of the Shot Notes one.
+    The app works the same. The `.deb` and `.rpm` packages add
+    the menu entry themselves, so they show the icon; for an AppImage, a tool
+    that adds AppImages to the menu, such as AppImageLauncher or `appimaged`,
+    does it.
 
     The command-line tool is a download too,
     `shotnotes-<version>-linux-<processor>.tar.gz`, from the Releases page. It
@@ -166,8 +180,10 @@ it is the file that was published:
 shotnotes version
 ```
 
-shows the tool's version, and the exiftool, the helper and the signer it found.
-For the desktop app, open it: it asks for an export file.
+shows the tool's version with its build number, such as `0.1.0 (8)`, and the
+exiftool, the helper and the signer it found. For the desktop app, open it: it
+asks for an export file. Its version, with the build number, is at the foot of
+the settings (the gear).
 
 ## Lightroom Classic plugin
 

@@ -35,7 +35,7 @@ shows what will change, and writes only after you say yes.
 | `shotnotes match <export> <paths>` | Proposes which note goes with which image, and writes nothing to the images. |
 | `shotnotes write <export> <paths>` | Matches, shows the changes, asks for consent, then writes. |
 | `shotnotes certificate` | Makes the certificate and key that sign new [Content Credentials](content-credentials.md). |
-| `shotnotes version` | The tool's version, and the exiftool, helper and signer it found. |
+| `shotnotes version` | The tool's version with its build number (`0.1.0 (8)`), and the exiftool, helper and signer it found. |
 
 `<paths>` are folders and image files. The notes and the images must be as many.
 If the export has more notes than you gave images, name the images the notes are

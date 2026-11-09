@@ -5,7 +5,9 @@ there is public.
 
 - **Something doesn't work:** [report a problem](https://github.com/shotnotes/support/issues/new?template=bug_report.yml).
   The app's "Report a problem" fills in the version, the system and the device
-  for you.
+  for you. For the computer programs, say the version with its build number, such
+  as `0.1.0 (8)`: `shotnotes version` prints it, and the desktop app shows it at
+  the foot of its settings.
 - **An idea or a change you would like:** [suggest a feature](https://github.com/shotnotes/support/issues/new?template=feature_request.yml),
   or talk it over first in [Ideas](https://github.com/shotnotes/support/discussions/categories/ideas).
 - **A typo or unclear text**, on the website, in the app, in the install
