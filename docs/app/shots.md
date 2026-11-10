@@ -49,10 +49,12 @@ location** and the app reads the phone's position, once, when you tap. The
 first time, the phone asks you to allow it. Precise location has to be allowed:
 an approximate one is too coarse to record.
 
-By default the app also asks Apple (on iOS) or Google (on Android) for the name
-of the place, which sends them the coordinates. A setting turns that off (see
-[Settings and your data](settings.md)). **Clear coordinates** removes them from
-a shot.
+If you turn on **Look up place names** in Settings, the app also asks Apple (on
+iOS) or Google (on Android) for the name of the place, which sends them the
+coordinates. It is off until you turn it on (see
+[Settings and your data](settings.md)), and while it is off the app reminds you of
+it once, the first time it records coordinates after it starts.
+**Clear coordinates** removes them from a shot.
 
 ## Starting from the last shot
 

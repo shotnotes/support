@@ -8,10 +8,10 @@ There is no account and nothing is sent to a server of Shot Notes. The
 
 Three things can leave the phone, and only when you ask:
 
-- **A place name.** When you tap the location button, the app can send the
-  coordinates to Apple (on iOS) or Google (on Android) to find the name of the
-  place. **Look up place names**, in Settings, turns this off; the location
-  button then records coordinates only and sends nothing.
+- **A place name.** If you turn on **Look up place names** in Settings, the
+  location button also sends the coordinates to Apple (on iOS) or Google (on
+  Android) to find the name of the place. It is off until you turn it on; while
+  it is off, the location button records coordinates only and sends nothing.
 - **A map.** The map button of a shot hands its location to your phone's map
   app.
 - **A kit item.** Sharing a kit item (see [Sharing kit](sharing-kit.md)) hands
@@ -21,7 +21,7 @@ Three things can leave the phone, and only when you ask:
 
 - **Carry over:** what a new shot copies from the last one (see
   [Logging a shot](shots.md)).
-- **Look up place names:** on by default.
+- **Look up place names:** off by default.
 - **Include serial number when sharing:** off by default. It sets whether the
   page that shares a kit item starts with the serial number included (see
   [Sharing kit](sharing-kit.md)).
