@@ -1,6 +1,6 @@
 [project]
 name = "shotnotes-support"
-version = "0.1.0"
+version = "0.1.1"
 description = "The Shot Notes documentation, built with Zensical. Never released: it is only built and published as a site."
 readme = "README.md"
 requires-python = ">=3.11"
