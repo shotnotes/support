@@ -18,50 +18,67 @@ Choose the export file, then the images: a folder with its subfolders, or
 files. Each choice has a card that says what was found: the shots and the span
 of their dates, the images, the folders and the camera bodies.
 
-![The Choose step: the export file and the images, both counted, with the camera clock to work out](../screenshots/writer-choose-light.svg#only-light){ loading=lazy }
-![The Choose step: the export file and the images, both counted, with the camera clock to work out](../screenshots/writer-choose-dark.svg#only-dark){ loading=lazy }
-
-Match straight after you import, before you delete any photos. If you already
-deleted some, delete their shots in the app before you export, or leave those
-notes out here.
+![The Choose step: the export file and the images, both counted](../screenshots/writer-choose-light.svg#only-light){ loading=lazy }
+![The Choose step: the export file and the images, both counted](../screenshots/writer-choose-dark.svg#only-dark){ loading=lazy }
 
 A check says whether the shots and the images are as many. **Match** stays off
-until they are. When they are not, it tells you where the times disagree: a note
-with no image near it (with the two nearest images), or an image with no note.
-For each, you can **Leave this out of this run**, which does not change the
-export file, or **Add images**.
+until they are. When they are not, choose the notes and the images you want to
+leave out, from all of them: **Choose notes...** and **Choose images...**. They
+are left out of this run only: the export file and the images are not changed.
+What you left out stays listed, with **Put back**. You can also **Add images**.
 
-The camera's clock is worked out for you. If you know it, give it for each
-camera, such as `+12s` or `-1h30m`, and it is trusted.
+The images must all come from one camera. They are put in the order of their
+capture times, which two cameras' clocks do not share, so if the images come
+from more than one body the app says so and **Match** stays off until you choose
+the images of one camera only (or leave the others out).
+
+The notes and the images are paired in order: the n-th note with the n-th
+image, in the order the images were taken. Under **Note ordering** you choose
+what puts the notes in order:
+
+- **Recorded date time**, the default: the date and time recorded on each note,
+  which you can change by hand in the app. It has no seconds, so notes of one
+  minute can tie; those stay in the order they were created.
+- **Creation date time**: when each note was created, to the millisecond, which
+  the app records in the note's own id. It is the order you wrote the notes in.
+
+The times written on the notes are not used for anything else, because notes
+are often written long after the pictures: the app does not guess from them
+which pairs are doubtful, and does not ask about the camera's clock. Changing
+the ordering matches again, so what you changed by hand on Review is not kept.
 
 ## 2. Review
 
-The top says how the clock was settled, how well the times fit, how many pairs
-are clear and how many need a look. Below, one row for each pair in time order:
+The top says how many pairs there are. Below, one row for each place in the
+list. The images stay in the order they were taken, and each note is paired with
+the image in its row. Nothing is flagged: you decide every pair. A row has:
 
-- the note;
-- a mark, **ok**, **?** or **!**, in words as well as colour;
-- the image, with its picture;
-- how long after the image the note is dated.
+- the place, from 1, and the image, with its picture and its capture time;
+- the note, with a handle at its left;
+- **Exclude**, a tick that leaves the note out of this run. Untick it to put the
+  note back, with the image it had if no other note has taken it;
+- three buttons to move the note: up, down, or to a place you type.
 
-The arrow at the end of a row opens any pair. There you can choose another
-image for the note (choosing an image that another note holds swaps the two),
-shift this pair and every pair after it up or down by one image, leave the note
-out, or say **I checked this pair**. A timeline of the whole run shows where
-the lines slant, which is where a run has slipped by one.
+To pair a note with another image of the shoot, move the note: drag it by its
+handle, or use the buttons, which do the same without a drag. The notes between
+take the images of their neighbours, and the images stay where they are. A note
+that is left out has **Choose an image...** when some image has no note: it lists
+those images, and using one pairs it with the note.
 
-![The Review step: one row for each note, with its image and how long after the image the note is dated](../screenshots/writer-review-light.svg#only-light){ loading=lazy }
-![The Review step: one row for each note, with its image and how long after the image the note is dated](../screenshots/writer-review-dark.svg#only-dark){ loading=lazy }
-![One pair open, with the other images it could be and the choices for it](../screenshots/writer-review-pair-light.svg#only-light){ loading=lazy }
-![One pair open, with the other images it could be and the choices for it](../screenshots/writer-review-pair-dark.svg#only-dark){ loading=lazy }
+![The Review step: one row for each note, with its image](../screenshots/writer-review-light.svg#only-light){ loading=lazy }
+![The Review step: one row for each note, with its image](../screenshots/writer-review-dark.svg#only-dark){ loading=lazy }
+![The images no note has, to choose from for a note](../screenshots/writer-review-pair-light.svg#only-light){ loading=lazy }
+![The images no note has, to choose from for a note](../screenshots/writer-review-pair-dark.svg#only-dark){ loading=lazy }
 
-If the clock is further out than a time zone explains, the app asks first
-whether the times fit, in which case it uses the offset, or do not, in which case
-you choose other images.
+The notes are put in the order you chose on Choose: by default the order they
+were created. Write your notes in the order you shoot, and the n-th note is
+paired with the n-th image. Look at the first pair, the last
+and a few between: if one is wrong, the notes are in another order than the
+images, and you put them right by moving the notes in the list.
 
-The clear pairs are confirmed together with one tick. **Write** is available
-only when nothing is left to decide. What you changed by hand is kept if you
-match again.
+One tick, **I have looked at the pairs**, says you did. **Write** is available
+when it is ticked. Any change to the pairs unticks it, so that you look again.
+What you changed by hand is kept if you match again.
 
 ## 3. Write
 

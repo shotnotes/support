@@ -21,19 +21,30 @@ says how to add the plugin to Lightroom.
 Select the photos in the Library, then choose **Library**, **Plug-in Extras**,
 **Match Shot Notes to the Selected Photos...**. The best time is straight after
 importing, before you delete any photos. If you already deleted some, delete their
-shots in the app before you export, or leave those notes out in the review.
+shots in the app before you export, or leave those notes out when asked.
 
-1. **Choose the export file.** A window says so first, then the file chooser
-   opens.
+1. **Choose the export file.** A window says so first, with **Note ordering**,
+   then the file chooser opens. The notes are paired with the photos in order:
+   the n-th note with the n-th photo, in the order the photos were taken. Note
+   ordering chooses what puts the notes in order: **Recorded date time** (the
+   default), the date and time recorded on the note, which has no seconds, so
+   notes of one minute stay in the order they were created, or **Creation date
+   time**, when each note was created. The photos must all come from one camera: from
+   several, the plugin says so and stops.
 2. **Which notes?** If the export has more notes than you selected photos, you
-   tick the notes that are for these photos. The notes whose times do not fit
-   are unticked. Photos that fit no note can be left out here too.
-3. **Check the pairs.** Each note is shown beside the thumbnail of its photo,
-   and the pairs the matching was unsure of are flagged. You can change a photo
-   with the menu (choosing a photo that another note has swaps the two), leave
-   a note out, confirm an unusual clock, or give the clock offset and match
-   again. The pairs the matching was sure of are checked together. **Next** is
-   available when nothing is left to decide.
+   tick the notes that are for these photos. Nothing is suggested: the times of
+   the notes cannot be trusted, so you decide. The photos are the ones you
+   selected: if some do not belong, cancel, deselect them in Lightroom and match
+   again.
+3. **Check the pairs.** Each note is shown with its whole date beside the
+   thumbnail of its photo. Nothing is flagged: you decide every pair. You can
+   change a photo with the menu (it offers the photos that no note has; putting a
+   note beside a photo another note has is a move, not a swap), put the notes in
+   another order with **Move note up**, **Move note down** or **Move note to
+   place** (the photos stay in the order they were taken, and the notes between
+   take the photos of their neighbours), or leave a note out. Tick **I have
+   looked at the pairs**; **Next** is available when it is ticked. Any change to
+   the pairs unticks it, so that you look again.
 4. **Confirm the changes.** The window shows how many photos change and, one
    photo at a time, every field that changes. Beside it you see the photo's
    Content Credentials now and after the write. The options are those of the

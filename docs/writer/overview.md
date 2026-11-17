@@ -40,23 +40,24 @@ as one image, and both get the note.
 
 ## How it matches notes to images
 
-The writer compares the time of each note, which is the phone's clock, with the
-time each image was taken, which is the camera's clock. Cameras' clocks drift,
-so it works out how far apart the two are by itself, and says how well the
-times fit. If you know the offset of a camera's clock, such as `+12s` or
-`-1h30m`, you can give it and the writer trusts it.
+The n-th note is paired with the n-th image: the images in the order they were
+taken, the notes in the order you choose. A note's times cannot be trusted
+(a note is often written long after the picture), so the writer does not use
+them to check a pair, does not flag any, and does not ask about the camera's
+clock. You choose how the notes are put in order:
 
-A pair is clear when the note is dated shortly after the image: by default, up
-to 10 minutes after. Anything it is unsure of is flagged for you to look at:
+- **Recorded date time** (the default): the date and time recorded on the note,
+  which has no seconds. Notes of one minute stay in the order they were created.
+- **Creation date time**: when each note was created, to the millisecond. It is
+  the order you wrote the notes in.
 
-- a note and an image far apart in time;
-- an image with no note, or a note with no image, which you can leave out of
-  this run (the export file is not changed);
-- a clock that is further out than a time zone or daylight saving explains,
-  such as images from another shoot, or a camera whose date was reset.
+You then look at every pair. If one is wrong, move the note to the place of its
+image, or leave a note out of this run (the export file is not changed). The
+images must all come from one camera: the images are put in order by capture
+time, which two cameras' clocks do not share, so the writer refuses images from
+more than one.
 
-This is why it helps to log a shot soon after taking it, with the phone's time
-set automatically.
+This is why it helps to write your notes in the order you shoot.
 
 ## What it writes
 

@@ -19,13 +19,9 @@ shotnotes show shot-notes-2026-10-16.snexport
 shotnotes write shot-notes-2026-10-16.snexport ~/Pictures/2026-10-16 --recursive
 ```
 
-Match straight after you import, before you delete any photos. If you already
-deleted some, delete their shots in the app before you export, or leave those
-notes out when it asks.
-
 `show` lists the shots in the file, after checking that the file is whole.
-`write` matches the notes to the images, asks about anything it is unsure of,
-shows what will change, and writes only after you say yes.
+`write` pairs the notes with the images, shows you every pair, shows what will
+change, and writes only after you say yes.
 
 ## Commands
 
@@ -39,15 +35,16 @@ shows what will change, and writes only after you say yes.
 
 `<paths>` are folders and image files. The notes and the images must be as many.
 If the export has more notes than you gave images, name the images the notes are
-for.
+for. The images must come from one camera: from several, the tool says so and
+stops, because the images are put in order by capture time, which two cameras'
+clocks do not share.
 
 ## Options you will use
 
 | Option | Does |
 |---|---|
 | `--recursive`, `-r` | Looks in the subfolders of the folders too. |
-| `--clock-offset <offset>` | How far the camera's clock is ahead of the phone's, such as `+12s` or `-1h30m`, instead of working it out. For one body: `"Canon EOS R5=+12s"`. Repeat the option for each camera. |
-| `--tolerance <time>` | How long after its image a note may be dated before the pair is flagged. The default is `10m`. |
+| `--note-order created\|recorded` | What puts the notes in order, before the n-th note is paired with the n-th image. `recorded` (the default) is the date and time recorded on the note, which has no seconds: notes of one minute stay in the order they were created. `created` is when each note was created, to the millisecond. |
 | `--sidecar` | Writes XMP sidecars beside the images, not into them. |
 | `--keep-camera-lens` | Keeps the lens and focal length the camera recorded, filling them in only where the file has none. The aperture is always replaced. |
 | `--keep-originals` | Keeps each file it replaces as `NAME.EXT_original`. |
@@ -59,15 +56,22 @@ for.
 
 ## What it asks
 
-At a terminal, `write` asks about what the matching was unsure of, in this
-order:
+The notes are paired with the images in order: the n-th note, in the order you
+chose, with the n-th image, in the order the images were taken. The times written
+on the notes are not used to check a pair, since notes are often written long
+after the pictures, so nothing is flagged and you are not asked about the
+camera's clock. At a terminal, `write` shows you every pair, with the whole date
+of the note and of the image (and the offset from UTC when it is known), and
+asks:
 
-1. The clock, if it is further out than a time zone or daylight saving
-   explains: keep it, or give the offset.
-2. The notes and images with no partner, which are left out of this run. The
-   export file is not changed.
-3. Each flagged pair, with the other images it could be: keep it, use another,
-   or leave the note out.
+- **Enter** says you looked at the pairs.
+- `m` moves a note to another place (the images stay in the order they were
+  taken, and the notes between take the images of their neighbours), as often as
+  you need.
+- `x` leaves a note out of this run, and `p` puts it back, with its own image if
+  no other note has taken it, else the first image no note has. The images no
+  note has are listed under the pairs. The export file is not changed.
+- `q` cancels.
 
 Then it shows what will change: the number of files, what happens to files with
 Content Credentials, and the fields of the first file as they are now and as they
@@ -78,8 +82,10 @@ will be. Press `d` to see every file. Only then does it write.
 When it is not run at a terminal, or with `--yes`, it never guesses:
 
 - `write` without `--yes` refuses to write.
-- A proposal with anything for a person to decide is refused even with `--yes`.
-  Decide it at a terminal, or save the decisions in a pairs file.
+- A proposal is refused even with `--yes`: a person must look at the pairs
+  before anything is written, because writing is not undone. Look at them at a
+  terminal, or in the desktop app or the Lightroom plugin, and write the pairs
+  file they save.
 
 A **pairs file** records what you confirmed, so that what is written is what you
 saw. `--save-pairs <file>` saves the pairs, and `shotnotes write <export>
