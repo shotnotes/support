@@ -11,9 +11,10 @@ writes.
 is tested on Lightroom Classic 15 (15.1.1).
 
 It needs [exiftool](https://exiftool.org/), which is not in the plugin's zip.
-Install it on a Mac with `brew install exiftool`, or on Windows with
-`winget install OliverBetz.ExifTool`, or with the installer from the exiftool
-website. [Install the metadata writer](../start/writer.md#lightroom-classic-plugin)
+On macOS, install it with [Homebrew](https://brew.sh/): `brew install exiftool`.
+On Windows, install it with `winget`: `winget install OliverBetz.ExifTool`. The
+installer on the exiftool website works on both.
+[Install the metadata writer](../start/writer.md#lightroom-classic-plugin)
 says how to add the plugin to Lightroom.
 
 ## Using it
