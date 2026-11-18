@@ -26,6 +26,28 @@ There are three ways to run it. They do the same job with the same rules:
 Files it can write: JPEG, HEIF, TIFF and DNG. Raw files in other formats, such
 as CR3, NEF or ARW, are not supported yet.
 
+!!! note "Photos on a WebDAV drive, on Windows"
+
+    Windows opens no file of more than 50 MB from a network drive that uses
+    WebDAV, unless you raise its limit. Large photos, such as the DNG files of
+    a high-resolution camera, then fail: exiftool says the file is not found,
+    and copying the file in File Explorer says it is too big. Explorer still
+    lists the file, which makes it look as if the writer were at fault. It is
+    Windows' own limit, and it applies to every program.
+
+    To raise it, run this in a PowerShell that you opened as administrator. It
+    sets the limit to 4 GB, the largest value the setting takes:
+
+    ```powershell
+    reg add HKLM\SYSTEM\CurrentControlSet\Services\WebClient\Parameters /v FileSizeLimitInBytes /t REG_DWORD /d 4294967295 /f
+    Restart-Service WebClient
+    ```
+
+    Then map the drive again if it still fails. This changes a Windows setting
+    for every program, so make a copy of the registry key first if you want to
+    be able to undo it. Reading large photos over WebDAV is slow, and a copy on
+    a local disk is the dependable way to work.
+
 ## The steps
 
 1. **Choose** the export file and the images the notes are for.
