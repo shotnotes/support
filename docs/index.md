@@ -11,15 +11,15 @@ files.
     Shot Notes is in beta. The programs for your computer, the metadata writer
     and the Lightroom plugin, are on the
     [Releases page](https://github.com/shotnotes/support/releases) as
-    pre-releases. The mobile apps are only available to testers for now, and
-    are not in the app stores. Testing has started on iPhone, and Android is
-    coming soon.
+    pre-releases. The app for iPhone and iPad
+    is on the [App Store](https://apps.apple.com/app/id6828896402), and the Android app
+    is open to invited beta testers.
     [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
     will say when and how to join.
 
 ## The parts
 
-- **[The app](app/shots.md)**, for iOS and Android, where you note each shot as
+- **[The app](app/shots.md)**, for iPhone, iPad and Android, where you note each shot as
   you take it.
 - **[The metadata writer](writer/overview.md)**, for macOS, Windows and Linux:
   a [command-line tool](writer/command-line.md) and a

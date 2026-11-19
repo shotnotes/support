@@ -1,7 +1,7 @@
 # The Lightroom Classic plugin
 
 The plugin matches the notes in an export file to the photos you select in
-Lightroom Classic, and writes them into the photos' metadata. It does the same
+Adobe Lightroom Classic, and writes them into the photos' metadata. It does the same
 job as the [desktop app](desktop-app.md), with the photos chosen inside
 Lightroom, and it runs the [command-line tool](command-line.md) for the writing.
 Read [The metadata writer](overview.md) first for how it matches and what it

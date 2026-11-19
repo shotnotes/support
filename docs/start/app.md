@@ -1,36 +1,32 @@
 # Install the app
 
-The app runs on **iPhone** and on **Android phones**. It is free, and needs no
+The app runs on **iPhone**, on **iPad** and on **Android phones**. It is free, and needs no
 account.
 
-!!! note "Beta, for testers only"
+!!! note "Beta"
 
-    Shot Notes is in beta. The app is available only to testers, who are
-    invited, and is not in the app stores yet. Testing has started on iPhone,
-    and Android is coming soon.
+    Shot Notes is in beta. The app for iPhone and iPad is on the App Store. The Android app
+    is open to invited beta testers.
     [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
     will say when and how to join.
 
 ## What it needs
 
-- **iPhone:** iOS 15 or later.
+- **iPhone and iPad:** operating system 15 or later.
 - **Android:** Android 7.0 or later.
 
 These are the oldest versions the app is built to run on.
 
 ## Install it
 
-As a tester:
+- **iPhone and iPad:** Shot Notes is available on the App Store. Search for
+  **Shot Notes** there and tap **Get**, or use the badge.
 
-- **iPhone:** open the invitation on the phone, install Apple's **TestFlight**
-  app if you do not have it, and accept the invitation there. Then tap
-  **Install** next to Shot Notes.
-- **Android:** the test is not open yet. When it is, you will get a link: open
-  it on the phone, join the test, and install Shot Notes from Google Play,
-  where the link takes you.
+  <a href="https://apps.apple.com/app/id6828896402"><img src="https://www.shotnotes.app/images/app-store-badge.svg" alt="Download on the App Store" height="48"></a>
 
-When the app is in the stores, search for **Shot Notes** in the App Store or in
-Google Play, and install it as any other app.
+- **Android:** the app is open to invited beta testers. An invitation brings a
+  link: open it on the phone, join the test, and install Shot Notes from Google
+  Play, where the link takes you.
 
 Open it. The **Shots** tab is empty, and **+** asks you to add a lens first, so
 that you choose it, instead of typing it, each time you log a shot.

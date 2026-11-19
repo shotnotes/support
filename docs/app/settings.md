@@ -9,7 +9,7 @@ There is no account and nothing is sent to a server of Shot Notes. The
 Three things can leave the phone, and only when you ask:
 
 - **A place name.** If you turn on **Look up place names** in Settings, the
-  location button also sends the coordinates to Apple (on iOS) or Google (on
+  location button also sends the coordinates to Apple (on iPhone and iPad) or Google (on
   Android) to find the name of the place. It is off until you turn it on; while
   it is off, the location button records coordinates only and sends nothing.
 - **A map.** The map button of a shot hands its location to your phone's map
@@ -42,7 +42,7 @@ Three things can leave the phone, and only when you ask:
 
 The app has no backup of its own yet: **Back up everything** and **Restore
 from backup** are marked as coming in Beta 2. Until then, your phone's own
-backup (iCloud Backup or a backup to your computer on an iPhone, Android's
+backup (iCloud Backup or a backup to your computer on an iPhone or iPad, Android's
 backup on an Android phone) includes your shots. The monthly export count is
 left out of backups on purpose.
 

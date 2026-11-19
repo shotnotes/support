@@ -14,7 +14,7 @@ name. Shot Notes keeps those on your phone, then puts them into the photos.
 
 | You want to | You need |
 |---|---|
-| Note shots | The app, on an iPhone or an Android phone. |
+| Note shots | The app, on an iPhone, an iPad or an Android phone. |
 | Put the notes into the photos | The metadata writer, on a Mac, a Windows PC or a Linux computer: the [desktop app](../writer/desktop-app.md), the [command-line tool](../writer/command-line.md), or both. |
 | Do the same from inside Lightroom Classic | The [Lightroom plugin](../writer/lightroom.md), which uses the command-line tool. |
 | Write the notes at all | [exiftool](https://exiftool.org/), a free program that the writer uses to change the files. |

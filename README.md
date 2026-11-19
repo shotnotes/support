@@ -17,7 +17,8 @@ question and download the computer programs. It holds no source code.
 
 Shot Notes is in beta. The computer programs have a first pre-release,
 [0.1.0 (Beta 1)](https://github.com/shotnotes/support/releases/tag/v0.1.0). The
-phone app isn't in the app stores yet. [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
+app for iPhone and iPad is on the [App Store](https://apps.apple.com/app/id6828896402),
+and the Android app is open to invited beta testers. [Announcements](https://github.com/shotnotes/support/discussions/categories/announcements)
 will say when there is something new to try.
 
 ## Documentation
